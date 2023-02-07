@@ -10,7 +10,7 @@ export default class HelloWorldResolver {
   async helloDev(@Root() parent: HelloWorldBase): Promise<HelloDev> {
     return {
       id: 10,
-      name: "Hello Wrold!",
+      name: "Hello Wrold",
     };
   }
 }
